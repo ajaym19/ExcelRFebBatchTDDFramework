@@ -1,25 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-23T21:41:59 IST" name="Default suite" finished-at="2023-03-23T21:42:26 IST" duration-ms="26905">
+  <suite started-at="2023-03-28T21:27:04 IST" name="Default suite" finished-at="2023-03-28T21:29:54 IST" duration-ms="169958">
     <groups>
     </groups>
-    <test started-at="2023-03-23T21:41:59 IST" name="Default test" finished-at="2023-03-23T21:42:26 IST" duration-ms="26905">
-      <class name="com.excelr.testcases.DashboardPageTest">
-        <test-method is-config="true" signature="browserSetup()[pri:0, instance:com.excelr.testcases.DashboardPageTest@2e8c1c9b]" started-at="2023-03-23T21:41:59 IST" name="browserSetup" finished-at="2023-03-23T21:42:22 IST" duration-ms="22609" status="PASS">
+    <test started-at="2023-03-28T21:27:04 IST" name="Default test" finished-at="2023-03-28T21:29:54 IST" duration-ms="169958">
+      <class name="com.excelr.testcases.LoginPageTest">
+        <test-method is-config="true" signature="browserSetup()[pri:0, instance:com.excelr.testcases.LoginPageTest@2a265ea9]" started-at="2023-03-28T21:27:04 IST" name="browserSetup" finished-at="2023-03-28T21:27:40 IST" duration-ms="35816" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserSetup -->
-        <test-method signature="timeatWorkSection()[pri:0, instance:com.excelr.testcases.DashboardPageTest@2e8c1c9b]" started-at="2023-03-23T21:42:22 IST" name="timeatWorkSection" finished-at="2023-03-23T21:42:25 IST" duration-ms="3580" status="PASS">
+        <test-method signature="forgotPasswordLinkDisplayed()[pri:0, instance:com.excelr.testcases.LoginPageTest@2a265ea9]" started-at="2023-03-28T21:27:40 IST" name="forgotPasswordLinkDisplayed" finished-at="2023-03-28T21:27:42 IST" duration-ms="2767" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- timeatWorkSection -->
-        <test-method is-config="true" signature="closeBrowserSetup()[pri:0, instance:com.excelr.testcases.DashboardPageTest@2e8c1c9b]" started-at="2023-03-23T21:42:25 IST" name="closeBrowserSetup" finished-at="2023-03-23T21:42:26 IST" duration-ms="610" status="PASS">
+        </test-method> <!-- forgotPasswordLinkDisplayed -->
+        <test-method is-config="true" signature="closeBrowserSetup()[pri:0, instance:com.excelr.testcases.LoginPageTest@2a265ea9]" started-at="2023-03-28T21:27:42 IST" name="closeBrowserSetup" finished-at="2023-03-28T21:27:43 IST" duration-ms="477" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowserSetup -->
-      </class> <!-- com.excelr.testcases.DashboardPageTest -->
+        <test-method is-config="true" signature="browserSetup()[pri:0, instance:com.excelr.testcases.LoginPageTest@2a265ea9]" started-at="2023-03-28T21:27:43 IST" name="browserSetup" finished-at="2023-03-28T21:29:06 IST" duration-ms="82924" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method signature="validateLoginTest()[pri:0, instance:com.excelr.testcases.LoginPageTest@2a265ea9]" started-at="2023-03-28T21:29:06 IST" name="validateLoginTest" finished-at="2023-03-28T21:29:11 IST" duration-ms="5454" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginTest -->
+        <test-method is-config="true" signature="closeBrowserSetup()[pri:0, instance:com.excelr.testcases.LoginPageTest@2a265ea9]" started-at="2023-03-28T21:29:11 IST" name="closeBrowserSetup" finished-at="2023-03-28T21:29:11 IST" duration-ms="190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowserSetup -->
+        <test-method is-config="true" signature="browserSetup()[pri:0, instance:com.excelr.testcases.LoginPageTest@2a265ea9]" started-at="2023-03-28T21:29:11 IST" name="browserSetup" finished-at="2023-03-28T21:29:53 IST" duration-ms="42087" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method signature="validateTitleTest()[pri:0, instance:com.excelr.testcases.LoginPageTest@2a265ea9]" started-at="2023-03-28T21:29:53 IST" name="validateTitleTest" finished-at="2023-03-28T21:29:53 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTitleTest -->
+        <test-method is-config="true" signature="closeBrowserSetup()[pri:0, instance:com.excelr.testcases.LoginPageTest@2a265ea9]" started-at="2023-03-28T21:29:53 IST" name="closeBrowserSetup" finished-at="2023-03-28T21:29:54 IST" duration-ms="128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowserSetup -->
+      </class> <!-- com.excelr.testcases.LoginPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

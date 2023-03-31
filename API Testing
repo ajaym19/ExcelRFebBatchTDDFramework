@@ -1,0 +1,20 @@
+API Testing
+
+Rest API
+SOAP API
+
+
+API = Base URL + End point
+
+API URL: https://reqres.in/api/users?page=2
+Base URL: https://reqres.in/api
+End Point: /users?page=2
+
+
+HTTP Methods:
+GET: used to get an existing record
+POST: to create a new record
+PUT: update an existing record
+DELETE: delete an existing record
+
+Response Code:
